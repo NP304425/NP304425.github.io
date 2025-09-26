@@ -1,0 +1,122 @@
+body{
+    background-color:black;
+}
+
+h1 {
+    font-family:Georgia;
+    color:white;
+    text-align:center;
+    font-size:45px;
+}
+
+footer {
+    font-family:Georgia;
+    font-size:12px;
+    color:white;
+    text-align:center;
+}
+
+div.pluto1 {
+    text-align:right;
+    font-family:Georgia;
+    font-size:25px;
+    color:white;
+}
+
+div.pluto2 {
+    text-align:left;
+    font-family:Georgia;
+    font-size:21px;
+    color:white;
+}
+
+div.pluto1image {
+    float:left;
+}
+
+div.pluto2image {
+    float:right;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+    display:flex;
+  justify-content: center;
+    border:1px solid white;
+    position: sticky;
+    top: 0;
+}
+
+
+ul li a {
+  display: block;
+    font-family:Georgia;
+  color: white;
+    font-size:21px;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+div.pluto {
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap:0.5%;
+    grid-template-rows:auto;
+    grid-row-gap:0.5%;
+    align-self: center;
+    text-align: center;
+    padding:2%;
+    border:1px solid white;
+}
+
+a:visited{
+    color:rgb(222,222,222);
+}
+
+a {
+    color:white;
+}
+    
+div.kuiper1 {
+    text-align:right;
+    font-family:Georgia;
+    font-size:23px;
+    color:white;
+}
+
+div.kuiper2 {
+    text-align:left;
+    font-family:Georgia;
+    font-size:24px;
+    color:white;
+}
+
+div.myimage {
+    margin-left:350px;
+    align-self: center;
+}
+
+div.me1 {
+    text-align:center;
+    font-family:Georgia;
+    font-size:23px;
+    color:white;
+    border:1px solid white;
+    padding:2%;
+}
+
+div.me2 {
+    text-align:center;
+    font-family:Georgia;
+    font-size:14px;
+    color:white;
+    padding:2%;
+}
